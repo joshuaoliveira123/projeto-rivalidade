@@ -20,6 +20,7 @@ body{
     background-image: linear-gradient(to right,var(--cor0), var(--cor1));
     font-family: var(--font-padrao);
     text-align: justify;
+    position: relative;
 }
 
 .header{
@@ -29,6 +30,8 @@ body{
     align-items: baseline;
     padding: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: -1px;
 }
 
 .header h1 a{
