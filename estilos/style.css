@@ -20,6 +20,7 @@ body{
     background-image: linear-gradient(to right,var(--cor0), var(--cor1));
     font-family: var(--font-padrao);
     text-align: justify;
+    position: relative;
 }
 
 .header{
@@ -29,6 +30,8 @@ body{
     align-items: baseline;
     padding: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: -1px;
 }
 
 .header h1 a{
@@ -96,29 +99,19 @@ p{
     margin: 40px 0px;
 }
 
-.img-animada{
-    display: flex;
-    flex-wrap: wrap;
-    animation: alternate;
-    margin: 50px 0px 30px 0px;
+div.imagem-parallax{
+    height: 60vh;
+    background: black center no-repeat fixed;
+    background-size: cover;
+    margin: 2em -20px;
 }
 
-.img-animada-lata{
-    display: block;
-    max-width: 100%;
+div.coca-fab{
+    background-image: url('../imagens/coca-cola-fabrica.jpg');
 }
 
-.img-animada-fab{
-    display: none;
-    max-width: 100%;
-}
-
-.img-animada:hover > .img-animada-fab{
-    display: block;
-}
-
-.img-animada:hover > .img-animada-lata{
-    display: none;
+div.pepsi-fab{
+    background-image: url('../imagens/pepsi-fabrica.jpg');
 }
 
 .extra{
