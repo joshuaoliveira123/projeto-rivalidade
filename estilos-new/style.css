@@ -4,3 +4,23 @@
     padding: 0;
     margin: 0;
 }
+
+:root{
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: x;
+    --font-titulo: x;
+
+    --cor1: x;
+    --cor2: x;
+    --cor3: x;
+    --cor4: x;
+    --cor5: x;
+
+    --sombra-texto: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    --sombra-titulo: 2px 2px 1px rgba(0, 0, 0, 0.8);
+    --sombra-caixa: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body{
+    font-family: var(--font-padrao);
+}
